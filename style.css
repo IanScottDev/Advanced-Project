@@ -306,7 +306,7 @@ footer {
 
 .footer__social--list {
     width: 100%;
-    max-width: 100px;
+    max-width: 500px;
     display: flex;
     justify-content: space-around;
     margin: 20px 0;

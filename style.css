@@ -30,6 +30,7 @@ section {
 
 .container {
     padding: 50px 0;
+    width: 100%;
 }
 
 .row {
@@ -208,6 +209,11 @@ PROJECTS
     font-size: 48px;
     margin-bottom: 60px;
 }
+
+.project {
+  margin-bottom: 135px;
+}
+
 .project__img {
     width: 100%;
     transition: all 450ms ease;
@@ -273,4 +279,40 @@ PROJECTS
 
 .project__description--para {
     margin: 16px 0;
+}
+
+/*
+
+FOOTER
+
+*/
+
+footer {
+    background-color: #242424;
+    display: flex;
+    padding: 6% 0;
+}
+
+.footer__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo--img {
+    
+    filter: invert();
+}
+
+.footer__social--list {
+    width: 100%;
+    max-width: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.footer__social--link,
+.footer__copyright {
+    color: white;
 }

@@ -1,7 +1,7 @@
 function contact(event) {
     event.preventDefault();
     emailjs
-        sendForm(
+        .sendForm(
             'service_b8z6qxb',
             'template_ejvjbnq',
             event.target,

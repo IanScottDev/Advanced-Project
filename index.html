@@ -78,7 +78,7 @@
    })();
 </script>
         </header>
-        <button class="mail__btn click">
+        <button class="mail__btn click" onclick="toggleModal()">
             <i class="fa-solid fa-envelope"></i>
         </button>
         <a href="#projects" class="scroll">
@@ -119,7 +119,7 @@
                 <h3 class="modal__sub-title modal__sub-title--contact">
                     I'm currently open to new opportunities.
                 </h3>
-                <form id="contact__form" onsubmit="contact()">
+                <form id="contact__form" onsubmit="contact(event)">
                     <div class="form__item">
                         <label class="form__item--label">Name</label>
                         <input type="text" name="user_name" class="input" required></input>

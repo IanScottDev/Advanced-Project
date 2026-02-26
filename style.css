@@ -277,7 +277,7 @@ MODAL
     opacity: 0;
     pointer-events: none;
     z-index: -1;
-    transition: visibility 1s, z-index: 1s, box-shadow 0.5s ease;
+    transition: visibility 1s, z-index 1s, box-shadow 0.5s ease;
 }
 
 .modal--open .modal {
